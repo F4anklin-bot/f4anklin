@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bijouterie H@ine</title>
+    <link rel="stylesheet" href="h@ine.css">
+</head>
+<body>
+    <nav id="top">
+        <div class="item-left"></div>
+        <div class="item-center">
+            <p id="navtop">OCTOBRE ROSE</p>
+            <strong>SURPRISE DU WEEK-END:-15$ DES 150$ D'ACHAT*</strong>
+        </div>
+        <div class="item-right">
+            <select name="login" class="login">
+                <option value="myaccount">👤Mon compte</option>
+                <option value="log">Inscription</option>
+                <option value="identify">S'identifier</option>
+            </select>
+        </div>
+    </nav>
+    <header id="header">
+            <div class="menu-left">
+                <form class="recherche" action="/search" method="GET">
+                    <input type="search" name="q" placeholder="Rechercher..." required>
+                    <button type="submit">$</button>
+                </form>
+            </div>
+            <div menu-center>
+                <div class="cleor-img">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3MDAuMiAyMTguMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZD0iTTI5LjIgNzUuNWMwLTI4LjEgMjMtNDcuMSA1MS00Ny4xSDEyNFYuM0g3NS43QzM0IC4zLjMgMzQgLjMgNzUuN3YtLjNjMCA0MS43IDMzLjcgNzUuNCA3NS40IDc1LjRIMTI0di0yOC4xSDgwLjJjLTI4LjMtLjUtNTEtMTkuNC01MS00Ny4yTTE1MC42LjN2MTUwLjZIMjM5di0yNC4xaC02MC4xVi4zek0yNjYgLjN2MTUwLjloMTA1LjN2LTI0LjFoLTc3LjdWODcuNWg3Mi45VjYyLjRoLTcyLjR2LTM4aDc3LjVWLjN6bTM2NS4xIDcxaC0yNS40di00N2gyNS45YzE1LjggMCAyNS4xIDguMyAyNS4xIDIzLjMgMCAxNS4yLTkuNiAyMy43LTI1LjYgMjMuN20zNC40IDIwLjljLTMuMi00LjMtOS45LTYuMS05LjktNi4xbDQuOC0uNWM3LjUtMS4zIDIzLjgtMTIuMyAyMy44LTM5LjYgMC0yOC4zLTIyLjItNDUuNy01NC00NS43bC01Mi42LjN2MTUwLjhoMjcuOFY5NS4xaDE2YzkuMSAwIDEyLjYuOCAxNi4zIDcuMmwyMi4yIDM4YzUuNiA5LjYgMTEuNSAxMS41IDI0LjMgMTEuNWgxNC43bC0zMy40LTU5LjZ6TTQ3NSAyNy45Yy0yNyAwLTQ4LjkgMjEuNy00OC45IDQ3LjkgMCAyNi41IDIxLjkgNDcuOSA0OC45IDQ3LjlzNDguNi0yMS40IDQ4LjYtNDcuOVM1MDIgMjcuOSA0NzUgMjcuOW0wIDEyMy4zYy00Mi4yIDAtNzYuNy0zMy43LTc2LjctNzUuNEMzOTguMyAzNC40IDQzMi41LjQgNDc1IC40czc2LjcgMzMuNyA3Ni43IDc1LjRjLS4zIDQxLjQtMzQuNSA3NS40LTc2LjcgNzUuNG04NC44IDQ3LjZjMy4yIDAgNC4yIDEuNSA0LjIgMy4zIDAgMi4zLTIgMy41LTQuMyAzLjVoLTIuNnYtNi43YzEgMCAxLjktLjEgMi43LS4xbS0yLjcgMTguOXYtOC40aDIuOGw2LjIgOC40aDQuOGwtNy05LjJjMS45LS42IDQuMy0yLjYgNC4zLTYuNCAwLTMuOS0yLTYuOS04LjItNi45LS42IDAtNS42LjEtNi45LjF2MjIuNWg0em0tMTYuNC0yMi40aC0zLjl2MTIuNGMwIDQuNC0xLjYgNi44LTUgNi44LTMuOSAwLTUuNi0yLjgtNS42LTd2LTEyLjFoLTR2MTIuOWMwIDYuNiA0IDkuOSA5LjYgOS45IDQuNyAwIDktMi44IDktOS43di0xMy4yem0tNDMuMiAyMi40aDEzLjRWMjE0aC05LjR2LTUuOGg4LjF2LTMuN2gtOC4xdi01LjZoOS4xdi0zLjdoLTEzdjIyLjV6TTQ2OSAxOTguOWg3LjN2MTguOGg0di0xOC44aDcuM3YtMy43SDQ2OXYzLjd6bS0xNi40IDEuNCAzLjMgOGgtNi42bDMuMy04em0tMTEuMiAxNy40aDRsMi40LTUuOGg5LjZsMi4zIDUuOGg0LjJsLTkuNS0yMi42SDQ1MWwtOS42IDIyLjZ6bS05LjktMjYuMS0xLjQtMy4yLTYuOSAzLjYgMSAyLjIgNy4zLTIuNnptLTEyLjEgMjYuMWgxMy40VjIxNGgtOS40di01LjhoOC4xdi0zLjdoLTguMXYtNS42aDkuMXYtMy43aC0xM3YyMi41em0tMjEtMTguOWMzLjIgMCA0LjIgMS41IDQuMiAzLjMgMCAyLjMtMiAzLjUtNC4zIDMuNWgtMi42di02LjdjMSAwIDItLjEgMi43LS4xbS0yLjcgMTguOXYtOC40aDIuOGw2LjIgOC40aDQuOGwtNy4xLTkuMmMxLjktLjYgNC4zLTIuNiA0LjMtNi40IDAtMy45LTItNi45LTguMi02LjktLjYgMC01LjYuMS02LjkuMXYyMi41aDQuMXptLTE1LjktNS4xYy0xLjUgMS4yLTMuNCAxLjgtNS4zIDEuOC00LjYgMC03LjgtMy4yLTcuOC03LjkgMC00LjkgMy4yLTcuOSA3LjMtNy45IDIuMyAwIDMuNy42IDUuMSAxLjVsMS44LTIuOWMtMS41LTEuMy0zLjktMi4zLTYuOS0yLjMtNy40IDAtMTEuNSA1LjEtMTEuNSAxMS42IDAgNyA0LjcgMTEuNiAxMS42IDExLjYgMi45IDAgNS44LTEgNy4yLTIuNWwtMS41LTN6bS00OS45LTEzLjhjMy4yIDAgNC4yIDEuNSA0LjIgMy4zIDAgMi4zLTIgMy41LTQuMyAzLjVoLTIuNnYtNi43YzEuMSAwIDItLjEgMi43LS4xbS0yLjcgMTguOXYtOC40aDIuOGw2LjIgOC40aDQuOGwtNy4xLTkuMmMxLjktLjYgNC4zLTIuNiA0LjMtNi40IDAtMy45LTItNi45LTguMi02LjktLjYgMC01LjYuMS02LjkuMXYyMi41aDQuMXptLTI4LjkgMGgxMy40VjIxNGgtOS40di01LjhoOC4xdi0zLjdoLTguMXYtNS42aDkuMXYtMy43aC0xM3YyMi41em0tMTcuMiAwaDR2LTIyLjVoLTR2MjIuNXptLTI4LjktMTguOGg3LjN2MTguOGg0di0xOC44aDcuM3YtMy43aC0xOC42djMuN3ptLTkuNi0zLjZoLTMuOXYxMi40YzAgNC40LTEuNiA2LjgtNSA2LjgtMy45IDAtNS42LTIuOC01LjYtN3YtMTIuMWgtNHYxMi45YzAgNi42IDQgOS45IDkuNiA5LjkgNC43IDAgOS0yLjggOS05Ljd2LTEzLjJ6TTE5NCAyMDYuNWMwLTQuNyAzLjItNy45IDcuNS03LjlzNy42IDMuMiA3LjYgNy45YzAgNC40LTIuOCA3LjktNy42IDcuOS00LjIgMC03LjUtMy40LTcuNS03LjltLTQuMiAwYzAgNyA1IDExLjYgMTEuNyAxMS42IDYuNyAwIDExLjgtNC45IDExLjgtMTEuNiAwLTctNS4xLTExLjYtMTEuOC0xMS42LTYuOSAwLTExLjcgNS0xMS43IDExLjZtLTExLTExLjJoLTR2MTYuNWMwIDEuNi0uNiAyLjYtMiAyLjYtLjcgMC0xLjUtLjMtMi0uN2wtMS4zIDNjLjYuNyAyLjEgMS40IDMuOCAxLjQgMy43IDAgNS40LTIuMSA1LjQtNS43di0xNy4xem0tMjMuNCAyMi40aDR2LTIyLjVoLTR2MjIuNXpNMTM1IDE5OC44YzIuMSAwIDMuNSAxIDMuNSAyLjggMCAyLjEtMS41IDMtMy40IDNoLTIuN3YtNS43Yy44LS4xIDEuNy0uMSAyLjYtLjF6bS4zIDkuMmMyLjUgMCAzLjkgMSAzLjkgMi45IDAgMi4xLTEuNSAzLjMtNC4xIDMuMy0xLjEgMC0yLjEtLjEtMi42LS4ydi02aDIuOHptLTYuOCA5LjdjMS4zLjEgNC4yLjIgNi4zLjIgNC44IDAgOC40LTIuMSA4LjQtNi43IDAtMy0xLjctNC43LTQtNS4ydi0uMWMxLjktLjkgMy4yLTIuNSAzLjItNS4xIDAtMy4xLTItNS42LTcuNC01LjYtMi4zIDAtNS4zLjEtNi41LjJ2MjIuM3oiLz48L3N2Zz4=" class="img-responsive" alt="Montres et Bijoux Cleor" width="100%" height="60">  
+                </div>
+                <div class="nav-main">
+                    <a href="https://www.cleor.com/marques-bijoux-montres-A3.htm">Marques</a>
+                    <a href="https://www.cleor.com/magazine">Magazine</a>
+                    <a href="https://www.cleor.com/promo-cleor.html">Promotions</a>
+                </div>
+            </div>
+            <div class="menu-right">
+                <div class="icon-right">
+                    <a href="https://www.cleor.com/boutiques">Position</a>
+                    <a href="https://www.cleor.com/wishlist">Wishlist</a>
+                    <a href="https://www.cleor.com/connexion-compte?return=https%3A%2F%2Fwww.cleor.com%2Fmon-compte">Contact</a>
+                </div>
+            </div>
+        <div id="bande">
+            <div class="ligne">
+                <nav class="menuitem">
+                    <ul class="liste">
+                        <li class="bagues" role="menuitem" aria-haspopup="true" aria-expanded="true">
+                            <a href="/bagues-C7.htm" title="BAGUES">
+                                <span class="menu-title">BAGUES</span>
+                                    <i class="fa fa-angle-down"></i>
+                            </a>
+                            <div class="submenu">
+                                <div class="parent">PAR GENRE</div>
+                                <div class="listeelement">
+                                    <ul>
+                                        <li><a href="">Bagues Femmes</a></li>
+                                        <li><a href="">Bagues Hommes</a></li>
+                                        <li><a href="">Bagues Enfants</a></li>
+                                    </ul>
+                                </div>
+                                <div class="parent">PAR TYPE</div>
+                                <div class="listeelement">
+                                    <ul>
+                                        <li><a href="">Alliances</a></li>
+                                        <li><a href="">Bagues de fiancailles</a></li>
+                                        <li><a href="">Bagues de promesse</a></li>
+                                        <li><a href="">Solitaires</a></li>
+                                        <li><a href="">Chevalières</a></li>
+                                        <li><a href="">Bagues simples</a></li>
+                                        <li><a href="">Bagues empierrées</a></li>
+                                        <li><a href=""><strong>Toutes les bagues</strong></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>  
+            </div>
+        </div>
+    </header>
+    <div class="slishow-container">
+        <div class="slideshow">
+            <img src="https://cdn.cleor.com/images/5/1860/720/media/images/AH24/Octobre/JoursDiamants/AH24_OPDiamant_TopBannerSlider_Desktop.jpg" alt="Première image" class="slide-img">
+            <img src="https://cdn.cleor.com/images/5/1860/720/media/images/AH24/Octobre/OctobreRose/AH24_OctobreRose_TopBannerSlider_Desktop_1860x720.jpg" alt="Seconde image" class="slide-img">
+        </div>
+    </div>
+    <div id="under-img">
+        <h2 class="description">NOS COUPS DE COEUR DU MOMENT</h2>
+        <div class="img-coeur">
+            <div class="imgcoeur-1">
+                <figure>
+                    <img src="https://cdn.cleor.com/i/small/438069/bague-cleor-or-375-1000-diamant-z0160167@2x.jpg" alt="Bagues CLEOR en or 375/1000 Blanc et diamant">
+                    <figcaption>Bagues CLEOR en or 375/1000 Blanc et diamant</figcaption>
+                    <p class="price" style="justify-content: center;">
+                        424,15 € 
+                        <span class="old-price" style="text-decoration: line-through;" >499,00€</span>
+                    </p>
+                </figure>
+            </div>
+            <div class="imgcoeur-2">
+                <figure>
+                    <img src="https://cdn.cleor.com/i/small/517321/bracelet-cleor-or-375-1000-d-3122500301@2x.jpg" alt="Bagues CLEOR en Or 375/1000 Jaune et Diamant">
+                    <figcaption>Bagues CLEOR en Or 375/1000 Jaune et Diamant</figcaption>
+                    <p class="price">211,65€
+                        <span class="old-price" style="text-decoration: line-through;">249,00€</span>
+                    </p>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <hr width="100%">
+    <div id="footer">
+        Mon site &copy; tout droits réservés
+    </div>
+</body>
+</html>

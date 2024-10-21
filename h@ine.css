@@ -1,0 +1,230 @@
+#top {
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif; 
+    color: lightpink; 
+    font-size: 14px;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    width: 100%;
+    z-index: 10;
+    flex-direction: column;
+}
+.item-left {
+    padding: 10px;
+}
+.item-center {
+    text-align: center;
+    font-weight: bold;
+    color:hotpink;
+}
+.item-right {
+    margin-left: auto;
+    display: flex;
+    text-align: center;
+    color: hotpink;
+}
+.login {
+        padding: 5px;
+        border-radius: 5px;
+        background-color: white;
+        color: hotpink;
+        font-weight: bold;
+        border: 1px solid hotpink;
+        margin-left: auto;
+        margin-bottom: 30px;
+}
+#navtop {
+    margin: 0%;
+}
+.menu-left {
+    margin-right: auto;
+    display: flex;
+}
+#header {
+    display: flex;
+    margin-top: 70px;
+    padding: 30px;
+    left: 0%;
+    right: 0%;
+}
+.menu-right {
+    display: flex;
+    margin-left: auto;
+    padding: 20px;
+
+} 
+.menu-center {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.menu-center a {
+    padding: 10px;
+    margin: auto;
+    text-decoration:none;
+    color: black;
+}
+#img1 {
+    max-width: 200px;
+}
+.nav-main {
+    font-weight: bold;
+    color: black;
+}
+.icon-right {
+    font-weight: bold;
+    color: black;
+    margin-right: 30px;
+}
+.ligne {
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    margin-top: auto;
+}
+#bande {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    position: relative; /* Assure que la bande reste à l'intérieur du header */
+    bottom: 0; /* Positionne la bande en bas du header */
+}
+
+.ligne {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.bagues, .colliers {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+#header {
+    display: flex;
+    flex-direction: column; /* Organise les éléments du header verticalement */
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 5;
+    width: 100%;
+}
+.recherche {
+    margin-top: 10px;
+}
+/* Style pour masquer le sous-menu par défaut */
+.submenu {
+    display: none;
+    position: absolute; /* Pour positionner le sous-menu par rapport à son parent */
+    top: 100%; /* Le sous-menu apparaît juste en dessous de l'élément parent */
+    background-color: white; /* Vous pouvez personnaliser la couleur d'arrière-plan */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Un peu d'ombre pour rendre le sous-menu visible */
+    z-index: 1000; /* Pour s'assurer que le sous-menu est au-dessus d'autres éléments */
+    border-radius: 10px;
+}
+
+/* Lorsque l'élément parent est survolé, afficher le sous-menu */
+.bagues:hover .submenu {
+    display: block;
+}
+
+/* Optionnel: Ajoutez un style pour le lien "BAGUES" lors du survol */
+.bagues:hover > a {
+    color: #007BFF; /* Couleur survolée */
+}
+.parent {
+    text-decoration: underline;
+}
+.menuitem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.listeelement {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.listeelement li {
+    position: relative;
+    padding: 10px 20px;
+    display: inline-block;
+}
+/* Conteneur du slideshow */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    height: 400px; /* Ajustez selon la taille souhaitée */
+    overflow: hidden;
+}
+
+/* Les images du slideshow */
+.slideshow-container img {
+    display: flex; /* Permet de placer les images en ligne */
+    width: 100%; /* 2 images = 200% pour tout le container */
+    transition: transform 0.5s ease;
+}
+.slideshow-container:hover img {
+    transform: translateX(20px);
+}
+
+.slide-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Pour que les images s'adaptent sans distorsion */
+}
+
+/* Animation pour faire défiler les images */
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    50% { transform: translateX(-100%); } /* Défile à la deuxième image */
+    100% { transform: translateX(0%); } /* Retour à la première image */
+}
+.imgcoeur {
+    display: flexbox;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    align-items: flex-start;
+}
+figure {
+    text-align: center;
+}
+#footer {
+    text-align: center;
+    width: 100%;
+}
+body a {
+    color: black;
+}
+.img-coeur {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.img-coeur img {
+    border-radius: 10px;
+}
+.description {
+    text-align: center;
+}
